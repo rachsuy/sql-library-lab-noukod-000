@@ -25,7 +25,7 @@ end
 
 def select_series_title_with_most_human_characters
   "Write your SQL query here"
-  "SELECT title FROM series 
+  "SELECT title FROM series
    JOIN characters ON series.id = characters.series_id
    WHERE characters.species = 'human'
    GROUP BY series.title
